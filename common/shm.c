@@ -108,7 +108,7 @@ static jack_shm_id_t   registry_id;	/* SHM id for the registry */
 #ifdef WIN32
 static jack_shm_info_t registry_info = {/* SHM info for the registry */
 	JACK_SHM_NULL_INDEX,
-	NULL
+	0 //NULL
 };
 #else
 static jack_shm_info_t registry_info = { /* SHM info for the registry */

@@ -20,6 +20,10 @@
 #ifndef __JackTools__
 #define __JackTools__
 
+#ifdef __MINGW32__
+#include <winsock2.h> // mingw gives warning if we include windows.h before winsock2.h
+#endif
+
 #ifdef WIN32
 #include <windows.h>
 #define DIR_SEPARATOR '\\'

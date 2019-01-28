@@ -28,7 +28,10 @@
 #define PATH_MAX   512
 #endif
 
+//ev. already defined in include/stdint.h 0xffffffffU
+#ifndef
 #define UINT32_MAX 4294967295U
+#endif
 
 #define DRIVER_HANDLE HINSTANCE
 #define LoadDriverModule(name) LoadLibrary((name))

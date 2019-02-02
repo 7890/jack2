@@ -21,7 +21,7 @@
 #ifndef __JackSystemDeps_WIN32__
 #define __JackSystemDeps_WIN32__
 
-#include <windows.h>
+////#include <windows.h>
 #include "JackCompilerDeps.h"
 
 #ifndef PATH_MAX

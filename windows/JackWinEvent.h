@@ -21,7 +21,7 @@
 #define __JackWinEvent__
 
 #include "JackSynchro.h"
-#include <windows.h>
+////#include <windows.h>
 
 namespace Jack
 {

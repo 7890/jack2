@@ -22,7 +22,7 @@
 #define __JackWinSemaphore__
 
 #include "JackSynchro.h"
-#include <windows.h>
+////#include <windows.h>
 #include <assert.h>
 
 namespace Jack

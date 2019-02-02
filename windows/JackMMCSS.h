@@ -24,7 +24,7 @@
 
 #include "JackSystemDeps.h"
 #include "JackCompilerDeps.h"
-#include <windows.h>
+///#include <windows.h>
 #include <map>
 
 namespace Jack

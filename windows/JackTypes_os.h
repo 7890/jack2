@@ -21,7 +21,7 @@
 #ifndef __JackTypes_WIN32__
 #define __JackTypes_WIN32__
 
-#include <windows.h>
+////#include <windows.h>
 
 typedef ULONGLONG UInt64;
 typedef UInt64 uint64_t;

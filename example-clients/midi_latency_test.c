@@ -60,10 +60,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 #include <jack/jack.h>
 #include <jack/midiport.h>
 
-#ifdef __MINGW32__
-#include <winsock2.h> // mingw gives warning if we include windows.h before winsock2.h
-#endif
-
 #ifdef WIN32
 #include <windows.h>
 #include <unistd.h>

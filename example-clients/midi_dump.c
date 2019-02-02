@@ -109,12 +109,10 @@ process (jack_nframes_t frames, void* arg)
 	return 0;
 }
 
-#ifndef WIN32
 static void wearedone(int sig) {
 	fprintf(stderr, "Shutting down\n");
 	keeprunning = 0;
 }
-#endif
 
 static void usage (int status) {
 	printf ("jack_midi_dump - JACK MIDI Monitor.\n\n");

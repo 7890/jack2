@@ -3,7 +3,7 @@
 set -euo pipefail
 
 if [ "$TRAVIS_OS_NAME" == "osx" ]; then
-  brew install --c++11 \
+  brew install --with-c++11 \
     pkg-config \
     aften \
     libsamplerate \

@@ -21,7 +21,6 @@
 #define __JackWinThread__
 
 #include "JackSystemDeps.h"
-#include "JackCompilerDeps.h"
 #include "JackThread.h"
 #include "JackMMCSS.h"
 

@@ -23,7 +23,6 @@
 #define __JackMMCSS__
 
 #include "JackSystemDeps.h"
-#include "JackCompilerDeps.h"
 #include <map>
 
 namespace Jack

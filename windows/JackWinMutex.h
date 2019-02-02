@@ -22,7 +22,6 @@
 #define __JackWinMutex__
 
 #include "JackSystemDeps.h"
-#include "JackCompilerDeps.h"
 #include "JackException.h"
 #include <stdio.h>
 

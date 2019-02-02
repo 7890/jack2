@@ -29,7 +29,7 @@
 #endif
 
 //ev. already defined in include/stdint.h 0xffffffffU
-#ifndef
+#ifndef UINT32_MAX
 #define UINT32_MAX 4294967295U
 #endif
 

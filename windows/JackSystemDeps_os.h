@@ -21,9 +21,6 @@
 #ifndef __JackSystemDeps_WIN32__
 #define __JackSystemDeps_WIN32__
 
-#ifdef __MINGW32__
-#include <winsock2.h> // mingw gives warning if we include windows.h before winsock2.h
-#endif
 #include <windows.h>
 #include "JackCompilerDeps.h"
 
@@ -31,10 +28,7 @@
 #define PATH_MAX   512
 #endif
 
-//ev. already defined in include/stdint.h 0xffffffffU
-#ifndef UINT32_MAX
 #define UINT32_MAX 4294967295U
-#endif
 
 #define DRIVER_HANDLE HINSTANCE
 #define LoadDriverModule(name) LoadLibrary((name))

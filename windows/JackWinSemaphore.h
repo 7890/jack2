@@ -22,10 +22,6 @@
 #define __JackWinSemaphore__
 
 #include "JackSynchro.h"
-
-#ifdef __MINGW32__
-#include <winsock2.h> // mingw gives warning if we include windows.h before winsock2.h
-#endif
 #include <windows.h>
 #include <assert.h>
 

@@ -34,10 +34,6 @@ static int	kNumOutputs = 4;
 
 #if WINDOWS
 
-#ifdef __MINGW32__
-#include <winsock2.h> // mingw gives warning if we include windows.h before winsock2.h
-#endif
-
 #include "jack.h"
 #include "rpc.h"
 #include "rpcndr.h"

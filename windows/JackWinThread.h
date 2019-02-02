@@ -20,10 +20,11 @@
 #ifndef __JackWinThread__
 #define __JackWinThread__
 
+#include "JackSystemDeps.h"
 #include "JackThread.h"
 #include "JackMMCSS.h"
 #include "JackCompilerDeps.h"
-#include "JackSystemDeps.h"
+///#include "JackSystemDeps.h"
 ////#include <windows.h>
 
 namespace Jack

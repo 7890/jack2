@@ -20,6 +20,8 @@
 #ifndef __JackWinEvent__
 #define __JackWinEvent__
 
+///
+#include "JackSystemDeps.h"
 #include "JackSynchro.h"
 ////#include <windows.h>
 

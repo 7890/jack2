@@ -20,6 +20,8 @@
 #ifndef __JackNetWinSocket__
 #define __JackNetWinSocket__
 
+///////
+#include "JackSystemDeps.h"
 #include "JackNetSocket.h"
 #ifdef __MINGW32__
 #include <winsock2.h>

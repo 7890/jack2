@@ -20,6 +20,8 @@
 #ifndef __JackWinProcessSync__
 #define __JackWinProcessSync__
 
+///
+#include "JackSystemDeps.h"
 #include "JackWinMutex.h"
 
 namespace Jack

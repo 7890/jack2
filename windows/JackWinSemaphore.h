@@ -21,8 +21,9 @@
 #ifndef __JackWinSemaphore__
 #define __JackWinSemaphore__
 
+#include "JackSystemDeps.h"
 #include "JackSynchro.h"
-////#include <windows.h>
+///#include <windows.h>
 #include <assert.h>
 
 namespace Jack

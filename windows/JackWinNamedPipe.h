@@ -21,11 +21,8 @@
 #ifndef __JackWinNamedPipe__
 #define __JackWinNamedPipe__
 
-///
 #include "JackSystemDeps.h"
 #include "JackChannel.h"
-
-///#include <windows.h>
 
 namespace Jack
 {

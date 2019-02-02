@@ -20,10 +20,9 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #ifndef __JackWinMMEPort__
 #define __JackWinMMEPort__
 
-#include <windows.h>
-#include <mmsystem.h>
-
+#include "JackSystemDeps.h"
 #include "JackConstants.h"
+#include <mmsystem.h>
 
 namespace Jack {
 

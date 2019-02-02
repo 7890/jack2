@@ -20,7 +20,6 @@
 #ifndef __JackWinNamedPipeServerChannel__
 #define __JackWinNamedPipeServerChannel__
 
-////
 #include "JackSystemDeps.h"
 #include "JackWinNamedPipe.h"
 #include "JackPlatformPlug.h"

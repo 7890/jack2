@@ -23,7 +23,6 @@
 
 #include "JackSystemDeps.h"
 #include "JackSynchro.h"
-///#include <windows.h>
 #include <assert.h>
 
 namespace Jack

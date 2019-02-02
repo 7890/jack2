@@ -21,7 +21,6 @@
 #ifndef __JackWinNamedPipeNotifyChannel__
 #define __JackWinNamedPipeNotifyChannel__
 
-////
 #include "JackSystemDeps.h"
 #include "JackWinNamedPipe.h"
 

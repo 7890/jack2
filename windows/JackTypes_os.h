@@ -22,8 +22,6 @@
 #define __JackTypes_WIN32__
 
 #include "JackSystemDeps.h"
-///#include "systemdeps.h"
-////#include <windows.h>
 
 typedef ULONGLONG UInt64;
 typedef UInt64 uint64_t;

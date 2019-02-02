@@ -21,7 +21,6 @@
 #define __JackTools__
 
 #ifdef WIN32
-#include <windows.h>
 #define DIR_SEPARATOR '\\'
 #else
 #define DIR_SEPARATOR '/'
@@ -35,8 +34,9 @@
 #include <sys/syslimits.h>
 #endif
 
-#include "jslist.h"
+#include "JackSystemDeps.h"
 #include "JackCompilerDeps.h"
+#include "jslist.h"
 #include "JackError.h"
 
 #include <string>
